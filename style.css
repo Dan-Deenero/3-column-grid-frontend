@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;700&display=swap');
 :root{
     --Bright-orange: hsl(31, 77%, 52%) ;
     --Dark-cyan: hsl(184, 100%, 22%);
@@ -17,6 +18,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    font-family: 'Lexend Deca', sans-serif
 }
 
 .container{
@@ -82,7 +84,6 @@ button{
     background-color: var(--Very-light-gray);
     border: 2px solid var(--Transparent-white-);
     border-radius: 20px;
-    font-size: var(--font-size);
     padding: 10px 20px;
     margin: 20px 0 35px 0;    
 }
@@ -94,6 +95,8 @@ p{
 h1{
     color: var(--Very-light-gray);
     margin: 30px 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
 }
 img{
     margin: 40px 0 0 0;
@@ -103,6 +106,7 @@ button:active{
     background-color: transparent;
     color: var(--Transparent-white-);
     border: 2px solid var(--Transparent-white-);
+    font-weight: 700;
 }
 
 
